@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Page with Hamburger Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>What's catching your <span class="highlight">interest</span> today?</h1>
+            <button class="hamburger-menu" id="menuButton">☰</button>
+            <nav class="menu" id="navMenu">
+                <ul>
+                    <li><button class="nav-button">Home</button></li>
+                    <li><button class="nav-button" onclick="gotoStudy()">Study</button></li>
+                    <li><button class="nav-button" onclick="gotoLectures()">Lectures</button></li>
+                    <li><button class="nav-button">Notifications</button></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+        <div class="card">
+            <div class="content">
+                <h2>Study Now</h2>
+                <div class="details">
+                    <p>25 <span>Overall</span></p>
+                    <p>12 <span>Biology</span></p>
+                    <p>45 <span>Chemistry</span></p>
+                    <p>24 <span>Physics</span></p>
+                    <p>0 <span>Agriculture</span></p>
+                </div>
+                <button class="navigate-button">→</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>View Marks</h2>
+                <div class="details">
+                    <p>25 <span>Overall</span></p>
+                    <p>12 <span>Paper 01</span></p>
+                    <p>45 <span>Paper 02</span></p>
+                    <p>24 <span>Paper 03</span></p>
+                    <p>0 <span>Paper 04</span></p>
+                </div>
+                <button class="navigate-button">→</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>Lectures</h2>
+                <button class="navigate-button">→</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

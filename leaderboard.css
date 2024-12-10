@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.tab.active {
+    background-color: #007bff;
+    color: #fff;
+}
+.user-info {
+    text-align: left; /* Align user information to the left */
+}
+
+.username {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.time-recorded {
+    color: #888;
+    font-size: 0.8em;
+}
+
+.rankings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ranking {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.rank {
+    width: 50px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.info p:first-child {
+    font-weight: bold;
+}
+
+.info p:last-child {
+    color: #888;
+}
+
+/* Add more styles as needed to customize the appearance */

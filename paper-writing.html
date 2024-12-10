@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Writing</title>
+    <link rel="stylesheet" href="paper-writing-styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="hamburger-menu" id="hamburgerMenu">☰</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="study.html">Study</a></li>
+                <li><a href="#">Favorite</a></li>
+                <li><a href="#">Notification</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>What are you going to <span class="highlight">study</span> today?</h1>
+        <div class="leaderboard-info">
+            <img src="Vector.png" alt="Leaderboard Icon" class="icon">
+            <p>You are <strong>15th</strong> on the leaderboard</p>
+        </div>
+        <div class="subject-box">
+            <div class="subject-title">
+                <img src="Rectangle.png" alt="Paper Icon" class="subject-icon">
+                <h2>Paper Writing</h2>
+                <p>4 papers</p>
+            </div>
+            <div class="subject-options">
+                <button class="option-button">Biology</button>
+                <button class="option-button">Chemistry</button>
+                <div class="physics-dropdown">
+                    <button class="option-button">Physics</button>
+                    <div class="dropdown-content">
+                        <label for="choosePaper">Choose a Paper:</label>
+                        <select id="choosePaper">
+                            <option value="paper1">Paper 1</option>
+                            <option value="paper2">Paper 2</option>
+                        </select>
+                        <input type="text" placeholder="Other">
+                        <button class="done-button">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="focus-mode-button">Go to Focus Mode</button>
+    </main>
+
+    <script src="paper-writing-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="focused-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stay Focused!</h1>
+        <div class="timer-container">
+            <div class="timer-display">
+                <span id="minutes">20</span>:<span id="seconds">00</span>
+            </div>
+            <select id="timer-select">
+                <option value="20">20 mins</option>
+                <option value="30">30 mins</option>
+                <option value="45">45 mins</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="start-pause">Start</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="statistics">
+            <h2>Statistics</h2>
+            <div class="stat-item">
+                <h4>Daily</h4>
+                <p id="daily-time">3h 12mins</p>
+            </div>
+            <div class="stat-item">
+                <h4>Weekly</h4>
+                <p id="weekly-time">15h 42mins</p>
+            </div>
+            <div class="stat-item">
+                <h4>Monthly</h4>
+                <p id="monthly-time">47h 35mins</p>
+            </div>
+            <button class="see-more-button" onclick="goToLeaderboard()">See More</button>
+
+        </div>
+    </div>
+    <script src="focused.script.js"></script>
+</body>
+</html>
